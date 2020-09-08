@@ -1,0 +1,168 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< IntegTimeline:IntegTimeline >---------------------
+[INFO] Building Maven Quick Start Archetype 5.1
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> maven-assembly-plugin:2.2-beta-5:assembly (default-cli) > package @ IntegTimeline >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M3:enforce (enforce-maven) @ IntegTimeline ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ IntegTimeline ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.2:compile (default-compile) @ IntegTimeline ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /Users/gbelanger/dev/java/my-jars/IntegTimeline/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[23,24] package gb.esac.integral does not exist
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[24,24] package gb.esac.integral does not exist
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[25,24] package gb.esac.integral does not exist
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[26,24] package gb.esac.integral does not exist
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[27,18] package gb.esac.io does not exist
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[381,25] method inputStreamToFile(java.io.InputStream,java.lang.String) is already defined in class IntegTimeline
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[47,37] cannot find symbol
+  symbol:   method getPointLisFile()
+  location: class IntegTimeline
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[48,17] cannot find symbol
+  symbol:   class ScwList
+  location: class IntegTimeline
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[48,68] cannot find symbol
+  symbol:   variable distInL
+  location: class IntegTimeline
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[48,77] cannot find symbol
+  symbol:   variable distInB
+  location: class IntegTimeline
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[48,86] cannot find symbol
+  symbol:   variable firstRev
+  location: class IntegTimeline
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[48,96] cannot find symbol
+  symbol:   variable lastRev
+  location: class IntegTimeline
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[48,119] cannot find symbol
+  symbol:   variable normEffArea
+  location: class IntegTimeline
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[48,34] cannot find symbol
+  symbol:   variable ScwListMaker
+  location: class IntegTimeline
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[60,52] cannot find symbol
+  symbol:   variable sep
+  location: class IntegTimeline
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[117,17] cannot find symbol
+  symbol:   class AsciiDataFileReader
+  location: class IntegTimeline
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[119,42] cannot find symbol
+  symbol:   class AsciiDataFileReader
+  location: class IntegTimeline
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[124,40] cannot find symbol
+  symbol:   class MyFile
+  location: class IntegTimeline
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[128,49] cannot find symbol
+  symbol:   method getStrCol(int)
+  location: variable pointlisFile of type java.io.File
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[129,54] cannot find symbol
+  symbol:   method getDblCol(int)
+  location: variable pointlisFile of type java.io.File
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[130,55] cannot find symbol
+  symbol:   method getDblCol(int)
+  location: variable pointlisFile of type java.io.File
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[131,49] cannot find symbol
+  symbol:   method getDblCol(int)
+  location: variable pointlisFile of type java.io.File
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[132,48] cannot find symbol
+  symbol:   method getDblCol(int)
+  location: variable pointlisFile of type java.io.File
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[133,50] cannot find symbol
+  symbol:   method getDblCol(int)
+  location: variable pointlisFile of type java.io.File
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[426,37] cannot find symbol
+  symbol:   variable MyFile
+  location: class IntegTimeline
+[INFO] 25 errors 
+[INFO] -------------------------------------------------------------
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Skipping Maven Quick Start Archetype
+[INFO] This project has been banned from the build due to previous failures.
+[INFO] ------------------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.912 s
+[INFO] Finished at: 2020-08-16T11:46:59+02:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.6.2:compile (default-compile) on project IntegTimeline: Compilation failure: Compilation failure: 
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[23,24] package gb.esac.integral does not exist
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[24,24] package gb.esac.integral does not exist
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[25,24] package gb.esac.integral does not exist
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[26,24] package gb.esac.integral does not exist
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[27,18] package gb.esac.io does not exist
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[381,25] method inputStreamToFile(java.io.InputStream,java.lang.String) is already defined in class IntegTimeline
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[47,37] cannot find symbol
+[ERROR]   symbol:   method getPointLisFile()
+[ERROR]   location: class IntegTimeline
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[48,17] cannot find symbol
+[ERROR]   symbol:   class ScwList
+[ERROR]   location: class IntegTimeline
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[48,68] cannot find symbol
+[ERROR]   symbol:   variable distInL
+[ERROR]   location: class IntegTimeline
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[48,77] cannot find symbol
+[ERROR]   symbol:   variable distInB
+[ERROR]   location: class IntegTimeline
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[48,86] cannot find symbol
+[ERROR]   symbol:   variable firstRev
+[ERROR]   location: class IntegTimeline
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[48,96] cannot find symbol
+[ERROR]   symbol:   variable lastRev
+[ERROR]   location: class IntegTimeline
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[48,119] cannot find symbol
+[ERROR]   symbol:   variable normEffArea
+[ERROR]   location: class IntegTimeline
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[48,34] cannot find symbol
+[ERROR]   symbol:   variable ScwListMaker
+[ERROR]   location: class IntegTimeline
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[60,52] cannot find symbol
+[ERROR]   symbol:   variable sep
+[ERROR]   location: class IntegTimeline
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[117,17] cannot find symbol
+[ERROR]   symbol:   class AsciiDataFileReader
+[ERROR]   location: class IntegTimeline
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[119,42] cannot find symbol
+[ERROR]   symbol:   class AsciiDataFileReader
+[ERROR]   location: class IntegTimeline
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[124,40] cannot find symbol
+[ERROR]   symbol:   class MyFile
+[ERROR]   location: class IntegTimeline
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[128,49] cannot find symbol
+[ERROR]   symbol:   method getStrCol(int)
+[ERROR]   location: variable pointlisFile of type java.io.File
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[129,54] cannot find symbol
+[ERROR]   symbol:   method getDblCol(int)
+[ERROR]   location: variable pointlisFile of type java.io.File
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[130,55] cannot find symbol
+[ERROR]   symbol:   method getDblCol(int)
+[ERROR]   location: variable pointlisFile of type java.io.File
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[131,49] cannot find symbol
+[ERROR]   symbol:   method getDblCol(int)
+[ERROR]   location: variable pointlisFile of type java.io.File
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[132,48] cannot find symbol
+[ERROR]   symbol:   method getDblCol(int)
+[ERROR]   location: variable pointlisFile of type java.io.File
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[133,50] cannot find symbol
+[ERROR]   symbol:   method getDblCol(int)
+[ERROR]   location: variable pointlisFile of type java.io.File
+[ERROR] /Users/gbelanger/dev/java/my-jars/IntegTimeline/src/main/java/IntegTimeline.java:[426,37] cannot find symbol
+[ERROR]   symbol:   variable MyFile
+[ERROR]   location: class IntegTimeline
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

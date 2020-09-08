@@ -1,0 +1,156 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>IntegTimeline</groupId>
+  <artifactId>IntegTimeline</artifactId>
+  <packaging>jar</packaging>
+  <version>5.1</version>
+  <name>Maven Quick Start Archetype</name>
+  <url>http://maven.apache.org</url>
+
+  <build>
+
+    <plugins>
+      
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.6.2</version>
+        <configuration>  
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.2.0</version>
+        <configuration>
+          <archive>
+            <manifest>
+              <mainClass>MakeScwList</mainClass>
+              <addClasspath>true</addClasspath>
+            </manifest>
+          </archive>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <configuration>
+          <archive>
+            <manifest>
+              <mainClass>MakeScwList</mainClass>
+            </manifest>
+          </archive>
+          <descriptors>
+            <descriptor>src/assemble/distribution.xml</descriptor>
+          </descriptors>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-enforcer-plugin</artifactId>
+        <version>3.0.0-M3</version>
+        <executions>
+          <execution>
+            <id>enforce-maven</id>
+            <goals>
+              <goal>enforce</goal>
+            </goals>
+            <configuration>
+              <rules>
+                <requireMavenVersion>
+                  <version>3.0</version>
+                </requireMavenVersion>
+              </rules>    
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+
+    </plugins>
+
+    <resources>
+
+       <resource>
+          <directory> src/main/resources/ </directory>
+          <includes>
+            <include> eff_area.fits.gz </include>
+            <include> logger.config </include>
+          </includes>
+       </resource>
+
+    </resources>
+ 
+ </build>
+
+  <dependencies>
+
+    <dependency>
+      <groupId>org.apache</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.15</version>
+    </dependency>
+
+    <dependency>
+      <groupId>nom.tam</groupId>
+      <artifactId>fits</artifactId>
+      <version>1.06</version>
+    </dependency>
+
+    <dependency>
+      <groupId>colt</groupId>
+      <artifactId>colt</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>jsky</groupId>
+      <artifactId>coords</artifactId>
+      <version>2.6</version>
+    </dependency>
+
+  </dependencies>
+
+
+<repositories>
+
+  <repository>
+    <id>central-maven-repo</id>
+    <url>http://repo1.maven.org/maven2</url>
+  </repository>
+
+  <repository>
+    <id>com.springsource.repository.bundles.release</id>
+    <name>SpringSource Enterprise Bundle Repository - SpringSource Bundle Releases</name>
+    <url>http://repository.springsource.com/maven/bundles/release</url>
+  </repository>
+
+  <repository>
+    <id>com.springsource.repository.bundles.external</id>
+    <name>SpringSource Enterprise Bundle Repository - External Bundle Releases</name>
+    <url>http://repository.springsource.com/maven/bundles/external</url>
+  </repository>
+  
+  <repository>
+    <id>freehep-maven</id>
+    <url>http://java.freehep.org/maven3</url>
+  </repository>
+
+  <repository>
+    <id>ibiblio-maven</id>
+    <url>http://www.ibiblio.org/maven3</url>
+  </repository>
+
+  <repository>
+    <id>mvnrepository</id>
+    <name>mvnrepository</name>
+    <url>http://www.mvnrepository.com</url>
+  </repository>
+
+</repositories>
+
+</project>

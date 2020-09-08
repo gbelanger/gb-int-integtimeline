@@ -1,0 +1,1 @@
+/Users/gbelanger/.m2/repository/cern/colt/1.0/colt-1.0.jar:/Users/gbelanger/.m2/repository/jsky/coords/2.6/coords-2.6.jar:/Users/gbelanger/.m2/repository/org/apache/log4j/1.2.15/log4j-1.2.15.jar:/Users/gbelanger/.m2/repository/nom/tam/fits/1.06/fits-1.06.jar
